@@ -16,7 +16,7 @@
 ```
 
 参数说明： 
--   container       容器，默认"body"
+-   container       容器，默认"body"
 -   selectorName    标签，默认"img"
 -   animate         是否开启加载动画，默认true
 -   extend_height   提前加载的距离，默认0
