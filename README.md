@@ -2,7 +2,7 @@
 原生懒加载
 
 调用方法：
-
+```
 <!DOCTYPE html>
 <html>
   <head>
@@ -20,6 +20,7 @@
     </script>
   </body>
 </html>
+```
 
 参数说明： 
 +   container       容器
