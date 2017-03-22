@@ -1,31 +1,23 @@
 # lazyload.js
-原生懒加载
+一个轻量的图片懒加载加载插件
 -----------------------------------
 
 调用方法：
 ```
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>lazyload Demo</title>
-</head>
-<body>
-  <img  data-src="***.jpg" />
-
-  <script>
+  <img class="lazy"  data-src="***.jpg" />
+```
+```
+<script>
     lazyLoad({
       container: "body",
-      selectorName: "img"
+      selectorName: "img.lazy"
     });
-  </script>
-</body>
-</html>
+</script>
 ```
 
 参数说明： 
--   container       容器
--   selectorName    标签，默认img
--   animate         是否开启加载动画
--   extend_height   提前加载的距离
--   realSrcAtr      获取真实图片URL的属性，默认data-src
+-   container       容器，默认"body"
+-   selectorName    标签，默认"img"
+-   animate         是否开启加载动画，默认true
+-   extend_height   提前加载的距离，默认0
+-   realSrcAtr      获取真实图片URL的属性，默认"data-src"
