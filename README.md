@@ -1,5 +1,6 @@
 # lazyload.js
 原生懒加载
+-----------------------------------
 
 调用方法：
 ```
@@ -23,8 +24,8 @@
 ```
 
 参数说明： 
-+   container       容器
-+   selectorName    标签，默认img
-+   animate         是否开启加载动画
-+   extend_height   提前加载的距离
-+   realSrcAtr      获取真实图片URL的属性，默认data-src
+-   container       容器
+-   selectorName    标签，默认img
+-   animate         是否开启加载动画
+-   extend_height   提前加载的距离
+-   realSrcAtr      获取真实图片URL的属性，默认data-src
