@@ -5,20 +5,20 @@
 ```
 <!DOCTYPE html>
 <html>
-  <head>
-      <meta charset="UTF-8">
-      <title>lazyload Demo</title>
-  </head>
-  <body>
-    <img  data-src="***.jpg" />
+<head>
+    <meta charset="UTF-8">
+    <title>lazyload Demo</title>
+</head>
+<body>
+  <img  data-src="***.jpg" />
 
-    <script>
-      lazyLoad({
-        container: "body",
-        selectorName: "img"
-      });
-    </script>
-  </body>
+  <script>
+    lazyLoad({
+      container: "body",
+      selectorName: "img"
+    });
+  </script>
+</body>
 </html>
 ```
 
