@@ -22,8 +22,8 @@
 </html>
 
 参数说明： 
-  container     容器
-  selectorName  标签，默认img
-  animate       是否开启加载动画
+  container     容器\n
+  selectorName  标签，默认img\n
+  animate       是否开启加载动画\n
   extend_height 提前加载的距离
   realSrcAtr    获取真实图片URL的属性，默认data-src
